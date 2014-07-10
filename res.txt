@@ -1,0 +1,41 @@
+mp-mbp:q32t mpetzsch$ q mtt.q -q
+"testing...0 slaves"
+`6243 vwap
+`7480 aj
+`7368 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q 
+"testing...0 slaves"
+`6150 vwap
+`7389 aj
+`7395 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q -s 4
+"testing...4 slaves"
+`2661 vwap
+`7463 aj
+`2686 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q -s 4
+"testing...4 slaves"
+`2616 vwap
+`7422 aj
+`2709 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q -s 8
+"testing...8 slaves"
+`2142 vwap
+`7679 aj
+`1845 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q -s 8
+"testing...8 slaves"
+`2137 vwap
+`7422 aj
+`1819 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q -s 16
+"testing...16 slaves"
+`2124 vwap
+`7434 aj
+`1898 .Q.fc aj
+mp-mbp:q32t mpetzsch$ q mtt.q -q -s 16
+"testing...16 slaves"
+`2123 vwap
+`7757 aj
+`1927 .Q.fc aj
+
